@@ -20,7 +20,7 @@ module.exports = {
 			text: input,
 			voice: 'en-US_MichaelVoice',
 			accept: 'audio/l16; rate=48000; channels=2'
-		}
+		};
 
 		text_to_speech.synthesize(params).pipe(speaker);
 	}
