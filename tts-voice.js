@@ -6,7 +6,7 @@ var speaker = new Speaker({
 	channels: 2,
 	bitDepth: 16,
 	sampleRate: 48000
-})
+});
 
 var text_to_speech = watson.text_to_speech({
 	username: creds.TTS_USERNAME,
