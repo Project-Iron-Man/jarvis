@@ -1,4 +1,0 @@
-module.exports = {
-	TTS_USERNAME: '<INSERT_USERNAME>',
-	TTS_PASSWORD: '<INSERT_PASSWORD>'
-};
